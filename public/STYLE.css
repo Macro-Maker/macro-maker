@@ -4,13 +4,15 @@
   margin-top: 3em;
   text-decoration: none;
   font-family: "Yanone Kaffeesatz", sans-serif;
+  flex-direction: column;
 }
 html {
   cursor: url(pizzacursor.png), auto;
   background-color: #F4E9CD;
   display: flex;
   justify-content: center;
-
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
 }
 link{
     color: #468189;
@@ -37,23 +39,24 @@ link{
 }
 .home-nav {
   font-size: x-large;
-  padding: 10px;
+  padding: 0px;
   margin: 30px;
   background-color: #F4E9CD;
   color: #468189;
-  border: 2px solid #468189;
+  /* border: 2px solid #468189; */
   border-radius: 4px;
   padding: 10px 20px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
-  box-shadow: 0 0 10px #468189;
+  /* box-shadow: 0 0 10px #468189; */
   transition: all 0.3s ease-in-out;
 }
 .home-nav:hover {
   padding: 10px;
   margin: 30px;
   background-color: #F4E9CD;
+  image-rendering: url(icons8-home-forward-69.png);
   color: #77ACA2;
   border-color: #77ACA2;
   box-shadow: 0 0 20px #77ACA2;
@@ -131,7 +134,7 @@ link{
     transform: translateY(2px);
     transition-duration: 0s;
 }
-.logo {
+.logoimg {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -139,6 +142,14 @@ link{
 .logobox {
   display: flex;
   justify-content: center;
-  width: 10%;
-  border: 2px solid black
+  width: 100%;
+  /* border: 2px solid black */
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.navigator{
+    display: flex;
+    justify-content: center;
 }
