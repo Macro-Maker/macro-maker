@@ -5,7 +5,9 @@ import ReactDOM from "react-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Profile from "./components/Profile";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "Register",
         element: <Register />,
+      },
+      {
+        path: "Profile",
+        element: <Profile />,
       },
     ],
   },
