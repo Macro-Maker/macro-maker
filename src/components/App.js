@@ -10,19 +10,16 @@ const App = () => {
             <img className="logoimg" src="logo.png" />
         </div>
       </div>
-      <div className="app">
+      {/* <div className="app">
         <div className="getstarted">
             Get started by clicking the button below!
-        </div>
-        <div className="bouncingarrow">
-            <img src="bouncing arrow.gif"/>
         </div>
         <nav className="navigator">
           <Link to="Login" className="login-nav">
           <img src="icons8-checkmark-69 .png"/>
           </Link>
         </nav>
-      </div>
+      </div> */}
 
       <div></div>
       <Outlet />
